@@ -10,3 +10,5 @@ app.use(bodyParser.json());
 app.listen(port, function() {
   console.log(`Micro Service is running on port ${port}.`);
 });
+
+module.exports = app;
